@@ -70,8 +70,8 @@ void display(struct node *head)
 
 int main()
 {
-	struct node *head=NULL,*head1=NULL,*head2=NULL;// two head pointers for the user input linked list and a third head pointer
-							// concat holding linked list
+	struct node *head=NULL,*head1=NULL,*head2=NULL;// two head pointers(head,head1) for the user input linked list and a third head
+						      // pointer(head2) concat holding linked list
 	int i,n;
 	printf("Enter the data for 1st linked list\n"); //user input for 1st linked list
 	for(i=0;i<5;i++)
@@ -88,7 +88,7 @@ int main()
 		insert(&head1,n); //referencing the address of the head1 pointer to set to the 2nd LL starting addresss
 	}	
 	head2=concat(head,head1); //sending in head pointers of the two linked list, no referencing required as pointer(address) value
-				  // was set in the insert method
+				  // was set in the insert method, head2 for holding the address of the list sent by the concat method
 	printf("The concated linked list is \n");
-	display(head2);
+	display(head2);// pass the starting address of the list to be printed (over here concat list address)
 }
