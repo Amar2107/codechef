@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Notice1",
+    "date": "21 Oct 2020",
+    "text": "This is a notice regarding notice1",
+    "teacher": "Spondon Sir",
+    "img":"new image1"
+  },
+  {
+    "title": "Notice2",
+    "date": "21 Oct 2020",
+    "text": "This is a notice regarding notice2",
+    "teacher": "Gargie Mam",
+    "img":"new image2"
+  },
+  {
+    "title": "Notice3",
+    "date": "19 Oct 2020",
+    "text": "This is a notice regarding notice3",
+    "teacher": "Swarup Sir",
+    "img":"new image3"
+  }
+]
